@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/127/trunk/res/layout
+END
+dialog_list_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/72/trunk/res/layout/dialog_list_row.xml
+END
+subscribe.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/res/layout/subscribe.xml
+END
+settings_toolbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/trunk/res/layout/settings_toolbar.xml
+END
+search_toolbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/res/layout/search_toolbar.xml
+END
+replace_toolbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/res/layout/replace_toolbar.xml
+END
+textview_hint.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/res/layout/textview_hint.xml
+END
+linespace.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/127/trunk/res/layout/linespace.xml
+END
+pick_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/res/layout/pick_item.xml
+END
+file_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/res/layout/file_row.xml
+END
+textviewer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/109/trunk/res/layout/textviewer.xml
+END
+settings_toolbar_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/115/trunk/res/layout/settings_toolbar_row.xml
+END
+wrapwidth.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/127/trunk/res/layout/wrapwidth.xml
+END
+about.xml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/res/layout/about.xml
+END
+jump.xml
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/res/layout/jump.xml
+END
+input_search_word.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/res/layout/input_search_word.xml
+END

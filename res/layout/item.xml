@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:background="@drawable/item_bg"
+      >
+
+
+    <TextView
+        android:id="@+id/name"
+        android:text="Name"
+        android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:textSize="22px"  
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:maxLines="1"
+		android:layout_weight="1"
+		android:fadingEdge="none"
+				android:background="@drawable/item_bg"
+				android:textColor="@drawable/item_fg"
+        />
+
+    <TextView
+        android:id="@+id/size"
+        android:text="Size"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:textSize="22px"  
+        android:ellipsize="none"
+        android:singleLine="true"
+        android:maxLines="1"
+		android:layout_weight="0"
+		android:fadingEdge="none"
+				android:background="@drawable/item_bg"
+				android:textColor="@drawable/item_fg"
+        />
+
+</LinearLayout>

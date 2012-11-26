@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android
+END
+TextWarriorIntents.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/TextWarriorIntents.java
+END
+KeysInterpreter.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/KeysInterpreter.java
+END
+SelectionModeListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/SelectionModeListener.java
+END
+FindPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/FindPanel.java
+END
+TouchNavigationMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/TouchNavigationMethod.java
+END
+TextWarriorHelp.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/TextWarriorHelp.java
+END
+RecentFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/RecentFiles.java
+END
+FreeScrollingTextField.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/FreeScrollingTextField.java
+END
+LiquidNavigationMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/LiquidNavigationMethod.java
+END
+PollingProgressDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/PollingProgressDialog.java
+END
+TrackpadNavigationMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/TrackpadNavigationMethod.java
+END
+TextWarriorSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/TextWarriorSettings.java
+END
+FilePicker.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/FilePicker.java
+END
+TextWarriorApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/TextWarriorApplication.java
+END
+DirectoryScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/DirectoryScanner.java
+END
+ClipboardPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/ClipboardPanel.java
+END
+YoyoNavigationMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/YoyoNavigationMethod.java
+END
+VolumeKeysNavigationMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/android/VolumeKeysNavigationMethod.java
+END

@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="33px"
+    android:id="@+id/header"
+	>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight=".50"
+    >
+	<TextView android:id="@+id/dotLeft"
+                android:text=".." 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:clickable="true"
+        		android:gravity="left|top"
+    			android:layout_weight=".50"
+				android:focusable="true"
+				android:background="@drawable/dot"
+				android:textColor="@drawable/dot"
+                android:onClick="upClick"
+				android:ellipsize="middle"
+				android:maxLines="1"
+				android:singleLine="true"
+                />
+	<TextView android:id="@+id/fsLeft"
+                android:text="SD" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:clickable="true"
+        		android:gravity="right"
+				android:focusable="true"
+				android:selectAllOnFocus="true"
+				android:background="@drawable/fs_background"
+				android:textColor="@drawable/fs_foreground"
+				android:paddingRight="10px"
+				android:paddingLeft="10px"
+                />
+    </LinearLayout>
+		<View 
+		     android:layout_width="3px"
+		     android:layout_height="wrap_content"
+		     android:background="@drawable/line"
+		/>        
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight=".50"
+    >
+	<TextView android:id="@+id/dotRight"
+                android:text=".." 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:clickable="true"
+        		android:gravity="left"
+    			android:layout_weight=".50"
+				android:focusable="true"
+				android:paddingLeft="10px"
+                android:onClick="upClick"
+				android:background="@drawable/dot"
+				android:textColor="@drawable/dot"
+				android:ellipsize="middle"
+				android:maxLines="1"
+				android:singleLine="true"
+                />
+	<TextView android:id="@+id/fsRight"
+                android:text="SD" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:clickable="true"
+        		android:gravity="right"
+				android:focusable="true"
+				android:selectAllOnFocus="true"
+				android:background="@drawable/fs_background"
+				android:textColor="@drawable/fs_foreground"
+				android:paddingRight="10px"
+				android:paddingLeft="10px"
+                />
+    </LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/panels"
+    android:layout_marginTop="30px"
+	>
+    
+     <com.ac.ACListView
+        android:id="@+id/left"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight=".50" 
+    	android:layout_marginBottom="66px"
+		android:background="@drawable/background"
+		android:paddingRight="10px"
+		android:fadingEdge="none"
+		android:fillViewport="true"
+        />
+		<View 
+        	android:id="@+id/center"
+		     android:layout_width="3px"
+		     android:layout_height="wrap_content"
+    	android:layout_marginBottom="66px"
+    			     android:background="@drawable/line"
+    	
+		/>        
+     <com.ac.ACListView
+        android:id="@+id/right"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:layout_weight=".50" 
+    	android:layout_marginBottom="66px"
+		android:background="@drawable/background"
+		android:paddingLeft="10px"
+		android:fadingEdge="none"
+        android:fillViewport="true"
+        />
+    </LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/terminalOutput"
+	android:visibility="invisible"
+	>
+	
+	<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+
+
+		<TextView 
+        		android:id="@+id/terminalOutputScrollable"
+                android:text="" 
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+                android:typeface="monospace"
+        		android:clickable="true"
+				android:background="@drawable/terminal_background"
+				android:textColor="@drawable/terminal_foreground"
+               	android:scrollbars="vertical"
+               	android:editable="false"
+				android:singleLine="false"
+				android:gravity="bottom"
+                />
+
+	<ImageView
+        android:id="@+id/panelsIcon"
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:src="@drawable/icon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:onClick="iconClick"
+         />
+	<ImageView
+        android:id="@+id/terminateIcon"
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:src="@drawable/terminate"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="terminateClick"
+         />
+
+	</RelativeLayout>
+	</LinearLayout>
+
+    
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/footer"
+	android:layout_alignParentBottom="true"
+	>
+		<View 
+			android:id="@+id/footerDivider"
+		     android:layout_width="fill_parent"
+		     android:layout_height="3px"
+		     android:layout_marginTop="0px"
+		     android:layout_marginBottom="0px"
+		     		     android:background="@drawable/line"
+		     
+		/>        
+		
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:gravity="left"
+	>
+		
+	<EditText android:id="@+id/terminal"
+				android:text=""
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:clickable="true"
+        		android:gravity="left|center_vertical"
+				android:focusable="true"
+				android:selectAllOnFocus="true"
+				android:background="@drawable/terminal_background"
+				android:textColor="@drawable/terminal_foreground"
+                android:singleLine="false"
+                android:lines="1"
+                />
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="30px"
+	android:id="@+id/menu"
+	android:gravity="left"
+	android:scrollbars="horizontal"
+	>
+	<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+	android:fillViewport="true"
+    >
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="30px"
+	android:gravity="center_vertical"
+	>
+	<TextView 
+                android:text="1" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="false"
+				android:background="@drawable/menu_number_background"
+				android:textColor="@drawable/menu_number_foreground"
+                />
+	<TextView android:id="@+id/view"
+                android:text="VIEW" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="true"
+				android:layout_marginRight="10px"
+				android:focusable="true"
+				android:selectAllOnFocus="true"
+				android:background="@drawable/menu_background"
+				android:textColor="@drawable/menu_foreground"
+                />
+
+	<TextView 
+                android:text="2" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="false"
+				android:background="@drawable/menu_number_background"
+				android:textColor="@drawable/menu_number_foreground"
+                />
+	<TextView android:id="@+id/edit"
+                android:text="EDIT" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="true"
+				android:layout_marginRight="10px"
+				android:focusable="true"
+				android:selectAllOnFocus="true"
+				android:background="@drawable/menu_background"
+				android:textColor="@drawable/menu_foreground"
+                
+                
+                />
+
+	<TextView 
+                android:text="3" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="false"
+				android:background="@drawable/menu_number_background"
+				android:textColor="@drawable/menu_number_foreground"
+                />
+	<TextView android:id="@+id/copy"
+                android:text="COPY" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="true"
+				android:layout_marginRight="10px"
+				android:focusable="true"
+				android:selectAllOnFocus="true"
+				android:background="@drawable/menu_background"
+				android:textColor="@drawable/menu_foreground"
+                />
+
+	<TextView 
+                android:text="4" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="false"
+				android:background="@drawable/menu_number_background"
+				android:textColor="@drawable/menu_number_foreground"
+                />
+	<TextView android:id="@+id/rename"
+                android:text="RENAME" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="true"
+				android:layout_marginRight="10px"
+				android:focusable="true"
+				android:selectAllOnFocus="true"
+				android:background="@drawable/menu_background"
+				android:textColor="@drawable/menu_foreground"
+                />
+
+	<TextView 
+                android:text="5" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="false"
+				android:background="@drawable/menu_number_background"
+				android:textColor="@drawable/menu_number_foreground"
+                />
+	<TextView android:id="@+id/mkdir"
+                android:text="MKDIR" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="true"
+				android:layout_marginRight="10px"
+				android:focusable="true"
+				android:selectAllOnFocus="true"
+				android:background="@drawable/menu_background"
+				android:textColor="@drawable/menu_foreground"
+                />
+
+	<TextView 
+                android:text="6" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="false"
+				android:background="@drawable/menu_number_background"
+				android:textColor="@drawable/menu_number_foreground"
+                />
+	<TextView android:id="@+id/delete"
+                android:text="DELETE" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="true"
+				android:layout_marginRight="10px"
+				android:focusable="true"
+				android:selectAllOnFocus="true"
+				android:background="@drawable/menu_background"
+				android:textColor="@drawable/menu_foreground"
+                />
+
+	<TextView 
+                android:text="7" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="false"
+				android:background="@drawable/menu_number_background"
+				android:textColor="@drawable/menu_number_foreground"
+                />
+	<TextView android:id="@+id/find"
+                android:text="FIND" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="true"
+				android:layout_marginRight="10px"
+				android:focusable="true"
+				android:selectAllOnFocus="true"
+				android:background="@drawable/menu_background"
+				android:textColor="@drawable/menu_foreground"
+                />
+
+	<TextView 
+                android:text="8" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="false"
+				android:background="@drawable/menu_number_background"
+				android:textColor="@drawable/menu_number_foreground"
+                />
+	<TextView android:id="@+id/terminal"
+                android:text="TERMINAL" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="true"
+				android:layout_marginRight="10px"
+				android:focusable="true"
+				android:selectAllOnFocus="true"
+				android:background="@drawable/menu_background"
+				android:textColor="@drawable/menu_foreground"
+                />
+
+	<TextView 
+                android:text="9" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="false"
+				android:background="@drawable/menu_number_background"
+				android:textColor="@drawable/menu_number_foreground"
+                />
+	<TextView android:id="@+id/settings"
+                android:text="SETTINGS" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="true"
+				android:layout_marginRight="10px"
+				android:focusable="true"
+				android:selectAllOnFocus="true"
+				android:background="@drawable/menu_background"
+				android:textColor="@drawable/menu_foreground"
+                />
+
+
+	<TextView 
+                android:text="0" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="false"
+				android:background="@drawable/menu_number_background"
+				android:textColor="@drawable/menu_number_foreground"
+                />
+	<TextView android:id="@+id/exit"
+                android:text="EXIT" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:onClick="menuClick"
+        		android:clickable="true"
+				android:focusable="true"
+				android:selectAllOnFocus="true"
+				android:background="@drawable/menu_background"
+				android:textColor="@drawable/menu_foreground"
+                />
+
+    </LinearLayout>
+	</HorizontalScrollView>
+    </LinearLayout>
+    </LinearLayout>
+    
+    </RelativeLayout>

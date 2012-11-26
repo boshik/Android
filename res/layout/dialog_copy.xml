@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300px"
+    android:layout_height="150px"
+    android:id="@+id/copy_dialog"
+    android:paddingLeft="20px"
+    android:paddingTop="10px"
+    android:paddingRight="20px"
+    android:paddingBottom="20px"
+    android:background="@drawable/green"
+	>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/copy_dialog"
+    android:paddingLeft="3px"
+    android:paddingTop="3px"
+    android:paddingRight="3px"
+    android:paddingBottom="3px"
+    
+    android:background="@drawable/red"
+    
+    android:layout_marginTop="10px"
+	>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/copy_dialog"
+    android:paddingLeft="3px"
+    android:paddingTop="3px"
+    android:paddingRight="3px"
+    android:paddingBottom="3px"
+    
+    android:background="@drawable/green"
+	>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/copy_dialog"
+    android:paddingLeft="3px"
+    android:paddingTop="3px"
+    android:paddingRight="3px"
+    android:paddingBottom="3px"
+    
+    android:background="@drawable/red"
+	>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/copy_dialog"
+    android:paddingLeft="3px"
+    android:paddingTop="3px"
+    android:paddingRight="3px"
+    android:paddingBottom="3px"
+    
+    android:background="@drawable/green"
+	>
+
+
+		<TextView android:id="@+id/title"
+                android:text="Dialog content goes here" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:clickable="true"
+        		android:gravity="left|top"
+				android:focusable="true"
+				android:background="@drawable/dot"
+				android:textColor="@drawable/dot"
+				android:ellipsize="middle"
+				android:maxLines="1"
+				android:singleLine="true"
+                />
+
+	
+	
+	</LinearLayout>
+	</LinearLayout>
+	</LinearLayout>
+	</LinearLayout>
+
+
+		<TextView android:id="@+id/title"
+                android:text=" Some title " 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:typeface="monospace"
+        		android:textSize="22px"  
+        		android:clickable="true"
+        		android:gravity="left|top"
+				android:focusable="true"
+				android:background="@drawable/green"
+				android:textColor="@drawable/red"
+				android:ellipsize="middle"
+				android:maxLines="1"
+				android:singleLine="true"
+				android:layout_centerHorizontal="true"
+               
+                />
+
+
+
+		</RelativeLayout>

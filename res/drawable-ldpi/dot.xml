@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+android:state_pressed="true"
+android:drawable="@drawable/selection"
+android:color="@drawable/foreground"
+android:background="@drawable/selection"
+/>
+<item
+android:state_focused="true"
+android:background="@drawable/selection"
+android:color="@drawable/foreground"
+android:drawable="@drawable/selection"
+/>
+<item
+android:background="@drawable/background"
+android:color="@drawable/foreground"
+android:drawable="@drawable/background"
+/>
+
+</selector>

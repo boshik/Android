@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common
+END
+FileIOThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/FileIOThread.java
+END
+TextWarriorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/TextWarriorException.java
+END
+LanguageJavascript.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/LanguageJavascript.java
+END
+EncodingScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/EncodingScheme.java
+END
+RowListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/RowListener.java
+END
+TextBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/TextBuffer.java
+END
+Lexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/Lexer.java
+END
+LanguageObjectiveC.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/LanguageObjectiveC.java
+END
+LinearSearchStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/LinearSearchStrategy.java
+END
+LanguageCsharp.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/LanguageCsharp.java
+END
+LanguageRuby.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/LanguageRuby.java
+END
+LanguagePython.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/LanguagePython.java
+END
+LanguageC.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/LanguageC.java
+END
+LanguageNonProg.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/LanguageNonProg.java
+END
+UndoStack.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/UndoStack.java
+END
+LanguagePHP.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/LanguagePHP.java
+END
+TextBufferCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/TextBufferCache.java
+END
+ReadThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/ReadThread.java
+END
+ColorScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/ColorScheme.java
+END
+CharEncodingUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/CharEncodingUtils.java
+END
+AnalyzeStatisticsThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/AnalyzeStatisticsThread.java
+END
+FindThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/FindThread.java
+END
+Flag.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/Flag.java
+END
+ProgressObserver.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/ProgressObserver.java
+END
+Document.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/Document.java
+END
+WriteThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/WriteThread.java
+END
+Language.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/Language.java
+END
+ProgressSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/ProgressSource.java
+END
+LanguageJava.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/LanguageJava.java
+END
+LanguageCpp.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/LanguageCpp.java
+END
+SearchStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/SearchStrategy.java
+END
+DocumentProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/DocumentProvider.java
+END
+Pair.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/textwarrior/!svn/ver/95/releases/android/0.9/TextWarrior/src/com/myopicmobile/textwarrior/common/Pair.java
+END
